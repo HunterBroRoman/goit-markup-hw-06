@@ -653,10 +653,6 @@ img {
   margin-left: 93px;
 }
 
-.letter-form {
-  display: flex;
-}
-
 .letter-title {
   display: flex;
   padding-top: 12px;
@@ -672,7 +668,7 @@ img {
   color: #ffffff;
 }
 
-.letter-email {
+.letter-form {
   display: flex;
 }
 
@@ -701,7 +697,7 @@ img {
   width: 200px;
   height: 50px;
   padding: 10px 62px 10px 28px;
-  background: #2196f3;
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88px;
@@ -709,9 +705,15 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 
+  background: #2196f3;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 1px solid #2196f3;
+}
+
+.btn-icon {
+  
 }
 
 /* -------------style portfolio-------------------- */
@@ -850,7 +852,7 @@ img {
   background: rgba(0, 0, 0, 0.2);
 }
 
-.backdrop.is.hidden {
+.backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
