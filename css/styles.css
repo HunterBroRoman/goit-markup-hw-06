@@ -961,8 +961,6 @@ img {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 10px;
-
   resize: none;
 }
 
@@ -972,8 +970,10 @@ img {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-  padding-top: 10px;
-  padding-left: 12px;
+  padding-left: 16px;
+  padding-top: 12px;
+  
+  
 }
 
 .input-wrap {
