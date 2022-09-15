@@ -660,9 +660,8 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #ffffff;
 }
+
 
 .letter-form {
   display: flex;
@@ -676,7 +675,10 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2f303a;
+  color: white;
 }
+
+
 input::placeholder {
   padding-left: 16px;
   font-weight: 400;
