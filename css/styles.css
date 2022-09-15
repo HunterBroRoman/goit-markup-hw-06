@@ -151,6 +151,7 @@ img {
   height: 4px;
   bottom: -0px;
   background-color: var(--accent-color);
+  border-radius: 3px;
   left: 0;
 }
 
