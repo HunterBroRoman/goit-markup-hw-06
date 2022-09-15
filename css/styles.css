@@ -61,10 +61,6 @@ img {
 
 /* ------Page header------- */
 
-.header {
-  display: flex;
-}
-
 .page-header {
   display: flex;
 
@@ -74,6 +70,11 @@ img {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
+
+.header {
+  display: flex;
+}
+
 
 .main-nav {
   display: flex;
@@ -537,21 +538,19 @@ img {
 
 /*---------- style footer---------- */
 
-.footer {
+.page-footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
 }
 
-.footer .container {
+.footer {
   display: flex;
-}
+  justify-content: space-between;
+  }
 
-.footer .logo {
-  margin: 0;
-}
-
-.site-footer {
+.footer-list {
   margin-top: 20px;
 }
 
@@ -591,6 +590,7 @@ img {
   color: #2196f3;
 }
 
+/*--------------FOOTER-SOCIAL-LINK-------------*/
 .footer-soc {
   padding-top: 12px;
   margin-left: 70px;
@@ -646,8 +646,7 @@ img {
 /*------------форма підписки------------*/
 
 .letter {
-  width: 100%;
-  margin-left: 93px;
+ margin-left: 93px;
 }
 
 .letter-title {
@@ -754,6 +753,7 @@ img {
   border-radius: 4px;
 }
 
+/*---------------WORKS-----------------*/
 .work-list {
   margin: 0;
 

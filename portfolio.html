@@ -269,15 +269,13 @@
         </div>
       </section>
     </main>
-    <footer>
-      <section class="footer">
-        <div class="container">
-          <div>
-            <a href="./index.htm" class="logo"
-              >Web<span class="logo-end">Studio</span></a
-            >
+    <footer class="page-footer">
+      <div class="container footer">
+        <div class="footer-inform">
+        <a href="./index.htm" class="logo"
+              >Web<span class="logo-end">Studio</span></a>
             <address>
-              <ul class="site-footer list">
+              <ul class="footer-list list">
                 <li class="footer-item">
                   <a
                     href="https://goo.gl/maps/8KMrA27ERhPjtxna9"
@@ -286,6 +284,7 @@
                     >м. Київ, пр-т Лесі Українки, 26</a
                   >
                 </li>
+
                 <li class="footer-item">
                   <a href="mailto:info@devstudio.com" class="info"
                     >info@devstudio.com</a
@@ -297,6 +296,9 @@
               </ul>
             </address>
           </div>
+
+          <!-- --------------FOOTER-SOCIAL-LINK ------------->
+
           <div class="footer-soc">
             <h2 class="footer-soc-title">приєднуйтесь</h2>
             <ul class="footer-soc-list list">
@@ -330,24 +332,27 @@
               </li>
             </ul>
           </div>
+          <!-- -------------------------РОЗСИЛКА ПОШТИ-------------- -->
+          
           <div class="letter">
             <h2 class="letter-title">Підпишіться на розсилку</h2>
-            <form name="letter-form">
-             
+            <form class="letter-form">
               <input
                 type="email"
                 name="user-email"
                 class="input-letter"
                 placeholder="E-mail"
               />
-              
 
-              <button type="submit" class="letter-btn">Підписатися</button>
-              <svg class="btn-icon" width="24" height="24">
-                <use href="./images/icon.svg#icon-send"></use>
-              </svg> 
-        
-      </section>
+              <button type="submit" class="letter-btn">
+                <span>Підписатися</span
+                ><svg class="btn-icon" width="24" height="24">
+                  <use href="./images/icon.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
     </footer>
   </body>
 </html>
