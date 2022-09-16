@@ -676,10 +676,11 @@ img {
   border-radius: 4px;
   background-color: #2f303a;
   color: white;
+  padding-left: 12px;
 }
 
-input::placeholder {
-  padding-left: 16px;
+.input-letter::placeholder {
+  padding-left: 2px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
@@ -1039,6 +1040,12 @@ textarea::placeholder {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
+.area-text:hover,
+.area-text:hover {
+  border: 1px solid #2196f3;
+}
+
 .chek-margin {
   margin-top: 20px;
   margin-bottom: 30px;
